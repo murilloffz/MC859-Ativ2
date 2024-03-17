@@ -103,7 +103,7 @@ public class TS_QBF extends AbstractTS<Integer> {
 		}
 
 		for (int i = 0; i < ObjFunction.getDomainSize(); i++){
-			if (pesos[i] + pesoAtual <= maxPeso && !CL.contains(i)) {
+			if (pesos[i] + pesoAtual <= maxPeso && !CL.contains(i) && !sol.contains(i)) {
 				CL.add(i);
 			}
 		}
