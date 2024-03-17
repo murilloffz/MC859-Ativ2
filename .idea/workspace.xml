@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atividade2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf060" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/instances.ods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf060" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/metaheuristics/tabusearch/AbstractTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/qbf/QBF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/qbf/QBF_Inverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/Solution.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dnDzGsptBXaWcuZuerySQpDChQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/QBF.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Unicamp\mo824\atividade2\Atividade2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TS_QBF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF" />
+      <module name="Atividade2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.qbf.solvers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TS_QBF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="" />
+      <created>1710635212630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710635212630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
