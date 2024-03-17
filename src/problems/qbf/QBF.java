@@ -318,6 +318,9 @@ public class QBF implements Evaluator<Integer> {
 	 */
 	protected Double[] allocateVariables() {
 		Double[] _variables = new Double[size];
+		for (int i = 0; i < size; i++){
+			_variables[i] = 0.0;
+		}
 		return _variables;
 	}
 

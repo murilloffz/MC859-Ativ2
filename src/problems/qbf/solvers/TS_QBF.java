@@ -3,6 +3,7 @@ package problems.qbf.solvers;
 import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import metaheuristics.tabusearch.AbstractTS;
 import problems.qbf.QBF_Inverse;
@@ -88,8 +89,24 @@ public class TS_QBF extends AbstractTS<Integer> {
 	 */
 	@Override
 	public void updateCL() {
+		ObjFunction.getDomainSize();
+		int[] pesos = ObjFunction.getWeights();
+		int pesoAtual = ObjFunction.getCurrentWeight();
+		int maxPeso = ObjFunction.getMaxWeight();
 
-		// do nothing
+		Iterator<Integer> iterator = CL.iterator();
+		while (iterator.hasNext()) {
+			Integer valor = iterator.next();
+			if (pesos[valor] + pesoAtual > maxPeso) {
+				iterator.remove();
+			}
+		}
+
+		for (int i = 0; i < ObjFunction.getDomainSize(); i++){
+			if (pesos[i] + pesoAtual <= maxPeso && !CL.contains(i)) {
+				CL.add(i);
+			}
+		}
 
 	}
 
@@ -185,7 +202,7 @@ public class TS_QBF extends AbstractTS<Integer> {
 	public static void main(String[] args) throws IOException {
 
 		long startTime = System.currentTimeMillis();
-		TS_QBF tabusearch = new TS_QBF(1, 10000, "instances/kqbf/kqbf020");
+		TS_QBF tabusearch = new TS_QBF(4, 100000, "instances/kqbf/kqbf400");
 		Solution<Integer> bestSol = tabusearch.solve();
 		System.out.println("maxVal = " + bestSol);
 		long endTime   = System.currentTimeMillis();

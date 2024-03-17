@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atividade2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf020" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf040" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf060" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf080" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/kqbf/kqbf400" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/instances.ods" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf020" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf040" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf060" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf080" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instances/qbf/qbf400" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metaheuristics/tabusearch/AbstractTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/qbf/QBF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/qbf/QBF_Inverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solutions/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/qbf/QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/QBF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +27,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/QBF.java"
+    "last_opened_file_path": "C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/solvers/GRASP_QBF.java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1710635212630</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1710638984631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710638984631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
