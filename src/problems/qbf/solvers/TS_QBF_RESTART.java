@@ -19,8 +19,10 @@ import solutions.Solution;
  * 
  * @author ccavellucci, fusberti
  */
-public class TS_QBF extends AbstractTS<Integer> {
+public class TS_QBF_RESTART extends AbstractTS<Integer> {
 	
+	private int withoutImprovement;
+    private final int restartLimit;
 	private final Integer fake = -1;
 
 	/**
@@ -37,8 +39,10 @@ public class TS_QBF extends AbstractTS<Integer> {
 	 * @throws IOException
 	 *             necessary for I/O operations.
 	 */
-	public TS_QBF(Integer tenure, Integer time, String filename) throws IOException {
+	public TS_QBF_RESTART(Integer tenure, Integer time, String filename, int restartLimit) throws IOException {
 		super(new QBF_Inverse(filename), tenure, time);
+		this.withoutImprovement = 0;
+        this.restartLimit = restartLimit;
 	}
 
 	/* (non-Javadoc)
@@ -132,6 +136,9 @@ public class TS_QBF extends AbstractTS<Integer> {
 	 */
 	@Override
 	public Solution<Integer> neighborhoodMove() {
+		if (withoutImprovement >= restartLimit) {
+            restartSearch();
+        }
 		Double minDeltaCost;
 		Integer bestCandIn = null, bestCandOut = null;
 
@@ -172,6 +179,16 @@ public class TS_QBF extends AbstractTS<Integer> {
 				}
 			}
 		}
+		if (minDeltaCost < Double.POSITIVE_INFINITY) { 
+	        if (bestSol.cost > sol.cost + minDeltaCost) {
+	            withoutImprovement = 0; 
+	        } else {
+	        	withoutImprovement++; 
+	        }
+	    } else {
+	    	withoutImprovement++; 
+	    }
+		
 		
 		// Implement the best non-tabu move
 		TL.poll();
@@ -194,6 +211,12 @@ public class TS_QBF extends AbstractTS<Integer> {
 		
 		return null;
 	}
+	
+	private void restartSearch() {
+        System.out.println("Restarting.");
+        sol = new Solution<>(bestSol);
+        withoutImprovement = 0;
+    }
 
 	/**
 	 * A main method used for testing the TS metaheuristic.
@@ -202,7 +225,7 @@ public class TS_QBF extends AbstractTS<Integer> {
 	public static void main(String[] args) throws IOException {
 
 		long startTime = System.currentTimeMillis();
-		TS_QBF tabusearch = new TS_QBF(10, 10000, "instances/kqbf/kqbf200");
+		TS_QBF_RESTART tabusearch = new TS_QBF_RESTART(10, 10000, "instances/kqbf/kqbf200", 1000);
 		Solution<Integer> bestSol = tabusearch.solve();
 		System.out.println("maxVal = " + bestSol);
 		long endTime   = System.currentTimeMillis();

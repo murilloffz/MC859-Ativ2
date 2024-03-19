@@ -379,7 +379,7 @@ public class QBF implements Evaluator<Integer> {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		QBF qbf = new QBF("instances/qbf/qbf040");
+		QBF qbf = new QBF("instances/qbf/qbf400");
 		qbf.printMatrix();
 		Double maxVal = Double.NEGATIVE_INFINITY;
 		
