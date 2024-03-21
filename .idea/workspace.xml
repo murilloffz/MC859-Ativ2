@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="Initial commit">
+    <list default="true" id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="Mudanças restantes para o funcionamento">
+      <change afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/qbf/QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/QBF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_RESTART.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_RESTART.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -23,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/solvers/GRASP_QBF.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/solvers/GRASP_QBF.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Unicamp\mo824\atividade2\Atividade2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TS_QBF_FIRST_IMPROVING">
     <configuration name="TS_QBF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF" />
       <module name="Atividade2" />
@@ -49,9 +62,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TS_QBF_FIRST_IMPROVING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF_FIRST_IMPROVING" />
+      <module name="Atividade2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.qbf.solvers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TS_QBF_RESTART" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF_RESTART" />
+      <module name="Atividade2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.qbf.solvers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TS_QBF_FIRST_IMPROVING" />
         <item itemvalue="Application.TS_QBF" />
+        <item itemvalue="Application.TS_QBF_RESTART" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710638984631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mudanças restantes para o funcionamento">
+      <created>1710652888371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710652888371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +135,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Mudanças restantes para o funcionamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudanças restantes para o funcionamento" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/metaheuristics/tabusearch/AbstractTS.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_FIRST_IMPROVING.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
