@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a3840ab-77d8-490e-9f61-9105742ef632" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF_DIVERSIFICATION_RESTART.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/qbf/QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/QBF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/qbf/solvers/TS_QBF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2dnDzGsptBXaWcuZuerySQpDChQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,7 +45,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Unicamp/mo824/atividade1/Ativ1/src/problems/qbf/solvers/GRASP_QBF.java"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feat/probabilistic",
+    "last_opened_file_path": "/Users/gsacramento/Desktop/Projetos Usberti/MC859-Ativ2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -35,7 +61,7 @@
       <recent name="C:\Unicamp\mo824\atividade2\Atividade2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TS_QBF_DIVERSIFICATION_RESTART">
     <configuration name="TS_QBF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF" />
       <module name="Atividade2" />
@@ -49,8 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TS_QBF_DIVERSIFICATION_RESTART" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF_DIVERSIFICATION_RESTART" />
+      <module name="Atividade2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.qbf.solvers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TS_QBF_RESTART" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.qbf.solvers.TS_QBF_RESTART" />
+      <module name="Atividade2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.qbf.solvers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TS_QBF_DIVERSIFICATION_RESTART" />
+        <item itemvalue="Application.TS_QBF_RESTART" />
+        <item itemvalue="Application.TS_QBF" />
+        <item itemvalue="Application.TS_QBF" />
         <item itemvalue="Application.TS_QBF" />
       </list>
     </recent_temporary>
@@ -63,6 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710635212630</updated>
+      <workItem from="1710890707049" duration="18132000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1710638984631</created>
@@ -73,6 +130,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
