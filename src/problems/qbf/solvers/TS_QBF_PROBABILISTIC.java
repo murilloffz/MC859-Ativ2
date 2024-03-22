@@ -211,7 +211,7 @@ public class TS_QBF_PROBABILISTIC extends AbstractTS<Integer> {
     public static void main(String[] args) throws IOException {
 
         long startTime = System.currentTimeMillis();
-        TS_QBF_PROBABILISTIC tabusearch = new TS_QBF_PROBABILISTIC(10, 10000, "instances/kqbf/kqbf200", 60.0);
+        TS_QBF_PROBABILISTIC tabusearch = new TS_QBF_PROBABILISTIC(10, 900000, "instances/kqbf/kqbf200", 60.0);
         Solution<Integer> bestSol = tabusearch.solve();
         System.out.println("maxVal = " + bestSol);
         long endTime   = System.currentTimeMillis();
